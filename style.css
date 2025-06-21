@@ -1,0 +1,48 @@
+:root {
+  --my-custom-color: #FFD700;
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+
+.custom-thumbnail {
+  border: 4px solid var #dbe3ff00 !important; /* Warna border biru Bootstrap */
+  box-shadow: 0 0 15px var #82127b !important; /* Shadow default */
+}
+
+.hero-box .box p {
+    width: 500px;
+}
+
+.bg-primary {
+  background-color: var(--my-custom-color) !important;
+}
+
+.text-primary {
+  color: var(--my-custom-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--my-custom-color) !important;
+  border-color: var(--my-custom-color) !important;
+}
+
+.btn-outline-primary {
+  color: var(--my-custom-color) !important;
+}
+
+.btn-outline-primary {
+  color: var(--my-custom-color) !important;
+  border-color: var(--my-custom-color) !important; 
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary:focus { 
+  color: #fff !important; 
+  background-color: var(--my-custom-color);
+  border-color: var(--my-custom-color);
+}
